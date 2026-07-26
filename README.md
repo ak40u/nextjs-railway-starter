@@ -54,7 +54,7 @@ in `package.json`. Without that, a fresh Next install trips the same gate.
 | `app/` | App Router: a landing page and `/api/health` |
 | `package.json` | Next 16, React 19 stable, plus `overrides` that keep the audit clean |
 | `package-lock.json` | Committed, so `npm ci` reproduces the audited tree |
-| `next.config.ts` | `output: "standalone"` — a self-contained server bundle |
+| `next.config.ts` | Left at defaults — `output: "standalone"` is incompatible with `next start`, which is what the builder runs |
 | `railway.json` | Health check on `/api/health` |
 
 ## Run locally
