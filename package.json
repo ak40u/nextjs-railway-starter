@@ -19,7 +19,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=20.9"
+    "node": "24.x"
   },
   "overrides": {
     "postcss": "^8.5.18",
